@@ -1,0 +1,7 @@
+material:
+  stone:
+    power: 0
+    hardness: 300
+    max-swing-damage: -1
+    sound: BLOCK_STONE_BREAK
+    drop: stone-drop

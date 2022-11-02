@@ -1,0 +1,30 @@
+stone-of-unlimited-power:
+  material: STONE
+  item-type: PICKAXE
+  internal-category: tool
+  has-uuid: true
+  abilities:
+    - "STONECUTTER"
+  rarity: LEGENDARY
+  display-name: "Stone of Unlimited Power"
+  custom-model-data: 2
+  lore:
+    - "\"Die.\""
+    - "No thanks <3"
+  stats:
+    mining-speed: 800
+    mining-power: 10000
+    attack-damage: -69
+  set-id: unlimited-power
+stone:
+  material: STONE
+  item-type: ITEM
+  internal-category: block
+  display-name: "Stone"
+  rarity: COMMON
+cobble:
+  material: STONE_BUTTON
+  item-type: ITEM
+  internal-category: item
+  display-name: "Cobble"
+  rarity: COMMON

@@ -1,0 +1,11 @@
+name: TheUnderworld
+version: '${project.version}'
+main: com.daymare.theunderworld.Underworld
+api-version: 1.19
+commands:
+  setdata:
+    description: "set the target players data"
+  giveitem:
+    description: "give a player an item obviously"
+  potion:
+    description: "apply potion effect to someone"

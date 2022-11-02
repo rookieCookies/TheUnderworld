@@ -1,0 +1,25 @@
+\A:
+  item: stone
+  amount: 10
+  pattern:
+    - " H "
+    - "HHH"
+    - " H "
+  keys:
+    H:
+      item: cobble
+      amount: 32
+
+B:
+  item: stone
+  amount: 10
+  keys:
+    - AIR
+    - cobble;32
+    - AIR
+    - cobble;32
+    - cobble;32
+    - cobble;32
+    - AIR
+    - cobble;32
+    - AIR

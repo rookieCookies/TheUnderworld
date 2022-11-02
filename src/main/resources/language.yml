@@ -1,0 +1,33 @@
+rarities:
+  common:
+    name-colour: "&f"
+    lore-text: "&f&lCOMMON ITEM"
+  rare:
+    name-colour: "&e"
+    lore-text: "&e&lRARE ITEM"
+  legendary:
+    name-colour: "&6"
+    lore-text: "&6&lLEGENDARY ITEM"
+item-type:
+  pickaxe: "&7Pickaxe"
+  block: "&7Block"
+  item: "&7Item"
+
+stats:
+  attack-damage: "&7• Attack Damage: &c"
+  attack-speed: "&7• Attack Speed: &c"
+  mining-power: "&7• Mining Power: &a"
+  mining-speed: "&7• Mining Speed: &a"
+  mining-fortune: "&7• Mining Fortune: &a"
+
+potions:
+  haste: "&eHaste"
+  pristine_miner: "&dPristine Miner"
+
+messages:
+  insufficient-arguments: "&7[&4!&7] This command requires at least &a{arg_count}&7 arguments. {command_usage}"
+  target-player-not-online: "&7[&4!&7] The given player is not currently online"
+  invalid-potion-effect: "&7[&4!&7] That is not a valid potion effect type"
+  not-an-integer: "&7[&4!&7] Please provide a valid integer"
+  potion-effect-expired: "&7[&a!&7]&e {potion_effect}&7 has expired"
+  potion-effect-applied: "&7[&a!&7] Applied {potion_effect} for &a{potion_duration}"
